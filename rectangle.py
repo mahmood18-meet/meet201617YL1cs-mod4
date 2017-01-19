@@ -19,7 +19,7 @@ class Rectangle :
             self.height=0
 
         self.turtle=turtle.clone() #Make a new turtle object just for this instance so that drawings can be cleared.
-        turtle.speed(0) #Make turtle move as fast as possible.
+        turtle.speed(10) #Make turtle move as fast as possible.
         self.has_been_drawn=False #Keep track of whether shape has been drawn.
 
     def set_length(self,new_length):
